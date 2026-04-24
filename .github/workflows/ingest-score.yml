@@ -1,0 +1,131 @@
+name: Ingest Score
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'score:')
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Parse and validate
+        id: parse
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.issue.body;
+            let data;
+            try {
+              data = JSON.parse(body);
+            } catch {
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: context.payload.issue.number,
+                body: 'Invalid JSON in issue body. Closing.',
+              });
+              await github.rest.issues.update({
+                ...context.repo,
+                issue_number: context.payload.issue.number,
+                state: 'closed',
+              });
+              return;
+            }
+
+            const imdbId = data.imdbId;
+            if (!imdbId || !/^tt\d+$/.test(imdbId)) {
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: context.payload.issue.number,
+                body: 'Missing or invalid imdbId. Closing.',
+              });
+              await github.rest.issues.update({
+                ...context.repo,
+                issue_number: context.payload.issue.number,
+                state: 'closed',
+              });
+              return;
+            }
+
+            if (!Array.isArray(data.criticScores) || data.criticScores.length === 0) {
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: context.payload.issue.number,
+                body: 'Missing or empty criticScores array. Closing.',
+              });
+              await github.rest.issues.update({
+                ...context.repo,
+                issue_number: context.payload.issue.number,
+                state: 'closed',
+              });
+              return;
+            }
+
+            const cats = ['story','acting','direction','cinematography','productionDesign','editing','sound','emotionalImpact'];
+            for (const s of data.criticScores) {
+              if (!s.source || !s.scores) {
+                await github.rest.issues.createComment({
+                  ...context.repo,
+                  issue_number: context.payload.issue.number,
+                  body: `Invalid score entry: missing source or scores. Closing.`,
+                });
+                await github.rest.issues.update({
+                  ...context.repo,
+                  issue_number: context.payload.issue.number,
+                  state: 'closed',
+                });
+                return;
+              }
+              for (const c of cats) {
+                const v = s.scores[c];
+                if (typeof v !== 'number' || v < 1 || v > 10) {
+                  await github.rest.issues.createComment({
+                    ...context.repo,
+                    issue_number: context.payload.issue.number,
+                    body: `Invalid score value for ${s.source}.${c}: ${v}. Must be 1-10. Closing.`,
+                  });
+                  await github.rest.issues.update({
+                    ...context.repo,
+                    issue_number: context.payload.issue.number,
+                    state: 'closed',
+                  });
+                  return;
+                }
+              }
+            }
+
+            core.setOutput('imdb_id', imdbId);
+            core.setOutput('valid', 'true');
+            core.setOutput('json', JSON.stringify(data, null, 2));
+
+      - name: Commit score
+        if: steps.parse.outputs.valid == 'true'
+        run: |
+          echo '${{ steps.parse.outputs.json }}' > "scores/${{ steps.parse.outputs.imdb_id }}.json"
+          git config user.name "watchflix-bot"
+          git config user.email "bot@watchflix.dev"
+          git add "scores/${{ steps.parse.outputs.imdb_id }}.json"
+          git commit -m "score: ${{ steps.parse.outputs.imdb_id }}"
+          git push
+
+      - name: Close issue
+        if: steps.parse.outputs.valid == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              ...context.repo,
+              issue_number: context.payload.issue.number,
+              body: `Score committed for \`${{ steps.parse.outputs.imdb_id }}\`.`,
+            });
+            await github.rest.issues.update({
+              ...context.repo,
+              issue_number: context.payload.issue.number,
+              state: 'closed',
+            });
