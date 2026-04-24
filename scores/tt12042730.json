@@ -1,0 +1,246 @@
+{
+  "imdbId": "tt12042730",
+  "title": "Project Hail Mary",
+  "criticScores": [
+    {
+      "source": "Consequence",
+      "url": "https://consequence.net/2026/03/project-hail-mary-review-ryan-gosling/",
+      "scores": {
+        "story": 8,
+        "acting": 5,
+        "direction": 7,
+        "cinematography": 6,
+        "productionDesign": 6,
+        "editing": 5,
+        "sound": 5,
+        "emotionalImpact": 9
+      },
+      "summary": "The critic has a highly positive sentiment towards the movie, appreciating its hopeful and beautiful message"
+    },
+    {
+      "source": "Slashfilm",
+      "url": "https://www.slashfilm.com/2119821/project-hail-mary-ryan-gosling-movie-review/",
+      "scores": {
+        "story": 8,
+        "acting": 7,
+        "direction": 9,
+        "cinematography": 8,
+        "productionDesign": 8,
+        "editing": 8,
+        "sound": 8,
+        "emotionalImpact": 9
+      },
+      "summary": "The critic highly praises Project Hail Mary, calling it a magical and inspiring film that will be remembered for decades"
+    },
+    {
+      "source": "USA Today",
+      "url": "https://www.usatoday.com/story/entertainment/movies/2026/03/10/project-hail-mary-movie-review/89068554007/",
+      "scores": {
+        "story": 8,
+        "acting": 7,
+        "direction": 8,
+        "cinematography": 7,
+        "productionDesign": 7,
+        "editing": 7,
+        "sound": 7,
+        "emotionalImpact": 8
+      },
+      "summary": "The movie is a funny, dramatic, and rousing adaptation of Andy Weirs novel, capturing human resilience and interstellar bromance.
+    },
+    {
+      source: San Francisco Chronicle,
+      url: https://www.sfchronicle.com/entertainment/movies-tv/article/project-hail-mary-review-21958392.php,
+      scores: {
+        story: 8,
+        acting: 6,
+        direction: 7,
+        cinematography: 8,
+        productionDesign: 9,
+        editing: 7,
+        sound: 7,
+        emotionalImpact: 8
+      },
+      summary: The critic praises Project Hail Mary as a masterpiece of a family popcorn movie with impressive production design and creature work
+    },
+    {
+      source: Boston Globe,
+      url: https://www.bostonglobe.com/2026/03/17/arts/project-hail-mary-ryan-gosling/,
+      scores: {
+        story: 7,
+        acting: 8,
+        direction: 7,
+        cinematography: 6,
+        productionDesign: 6,
+        editing: 6,
+        sound: 6,
+        emotionalImpact: 8
+      },
+      summary: The movie is a lovely and bittersweet character study that elicits a surprising amount of emotions
+    },
+    {
+      source: IndieWire,
+      url: https://www.indiewire.com/criticism/movies/project-hail-mary-review-ryan-gosling-1235182885/,
+      scores: {
+        story: 8,
+        acting: 6,
+        direction: 7,
+        cinematography: 7,
+        productionDesign: 7,
+        editing: 7,
+        sound: 6,
+        emotionalImpact: 7
+      },
+      summary: The critic found Project Hail Mary to be an entertaining and satisfying blockbuster film.
+    },
+    {
+      source: Original-Cin,
+      url: https://www.original-cin.ca/posts/2026/3/19/project-hail-mary-when-aliens-remind-us-how-to-be-human,
+      scores: {
+        story: 7,
+        acting: 6,
+        direction: 6,
+        cinematography: 6,
+        productionDesign: 6,
+        editing: 6,
+        sound: 6,
+        emotionalImpact: 7
+      },
+      summary: The movie is a crowd-pleasing sci-fi adaptation with humour and charm.
+    },
+    {
+      source: Next Best Picture,
+      url: https://nextbestpicture.com/project-hail-mary/,
+      scores: {
+        story: 9,
+        acting: 9,
+        direction: 9,
+        cinematography: 8,
+        productionDesign: 8,
+        editing: 8,
+        sound: 8,
+        emotionalImpact: 9
+      },
+      summary: The movie is a near-perfect crowd-pleaser with impressive craftsmanship and strong performances across the board
+    },
+    {
+      source: Collider,
+      url: https://collider.com/project-hail-mary-review-ryan-gosling-sci-fi-lord-miller/,
+      scores: {
+        story: 9,
+        acting: 8,
+        direction: 9,
+        cinematography: 9,
+        productionDesign: 9,
+        editing: 8,
+        sound: 8,
+        emotionalImpact: 8
+      },
+      summary: The critic highly praises Project Hail Mary as a new sci-fi classic and a potential Oscar contender
+    },
+    {
+      source: Looper,
+      url: https://www.looper.com/2119482/project-hail-mary-review/,
+      scores: {
+        story: 8,
+        acting: 7,
+        direction: 8,
+        cinematography: 8,
+        productionDesign: 9,
+        editing: 8,
+        sound: 8,
+        emotionalImpact: 9
+      },
+      summary: The critic highly praises Project Hail Mary as the best new movie of the year, highlighting its hopeful tone and spectacular production.
+    },
+    {
+      source: TheWrap,
+      url: https://www.thewrap.com/creative-content/movies/project-hail-mary-review-ryan-gosling/,
+      scores: {
+        story: 8,
+        acting: 7,
+        direction: 7,
+        cinematography: 6,
+        productionDesign: 6,
+        editing: 6,
+        sound: 6,
+        emotionalImpact: 7
+      },
+      summary: The movie Project Hail Mary has an engaging storyline and character interactions, reminiscent of Star Trek
+    },
+    {
+      source: Austin Chronicle,
+      url: https://www.austinchronicle.com/screens/film-review/project-hail-mary-ryan-gosling-hope-burns-bright/,
+      scores: {
+        story: 6,
+        acting: 8,
+        direction: 8,
+        cinematography: 7,
+        productionDesign: 7,
+        editing: 7,
+        sound: 6,
+        emotionalImpact: 6
+      },
+      summary: The filmmakers successfully balance humor and spectacle in Project Hail Mary, with strong performances and direction
+    },
+    {
+      source: The Associated Press,
+      url: https://apnews.com/article/project-hail-mary-movie-review-56616d8903dbd5c4339e1ca193e62013,
+      scores: {
+        story: 8,
+        acting: 5,
+        direction: 8,
+        cinematography: 6,
+        productionDesign: 6,
+        editing: 8,
+        sound: 8,
+        emotionalImpact: 7
+      },
+      summary: The movies tone and pace are well-maintained, making for an engaging and witty story with few dull moments."
+    },
+    {
+      "source": "The Seattle Times",
+      "url": "https://www.seattletimes.com/entertainment/movies/project-hail-mary-review-trip-to-the-stars-a-pleasure-cruise/",
+      "scores": {
+        "story": 8,
+        "acting": 8,
+        "direction": 7,
+        "cinematography": 6,
+        "productionDesign": 6,
+        "editing": 6,
+        "sound": 6,
+        "emotionalImpact": 7
+      },
+      "summary": "The film is an absolute joy, particularly in its buddy adventure aspects, with enjoyable performances and interactions."
+    },
+    {
+      "source": "Rotten Tomatoes",
+      "url": "https://www.rottentomatoes.com/m/project_hail_mary",
+      "scores": {
+        "story": 8,
+        "acting": 9,
+        "direction": 8,
+        "cinematography": 8,
+        "productionDesign": 8,
+        "editing": 8,
+        "sound": 8,
+        "emotionalImpact": 9
+      },
+      "summary": "The critics overall sentiment is overwhelmingly positive, with high praise for the films performances, emotional resonance, and overall impact."
+    },
+    {
+      "source": "Letterboxd",
+      "url": "https://letterboxd.com/film/project-hail-mary/reviews/by/popular/",
+      "scores": {
+        "story": 9,
+        "acting": 9,
+        "direction": 9,
+        "cinematography": 9,
+        "productionDesign": 8,
+        "editing": 8,
+        "sound": 9,
+        "emotionalImpact": 10
+      },
+      "summary": "The critic highly praises the film, citing its incredible storyline, impressive special effects, and outstanding performances, particularly from Ryan Gosling, which all combine to create a deeply emotional and captivating experience"
+    }
+  ]
+}
