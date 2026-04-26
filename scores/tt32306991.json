@@ -1,0 +1,156 @@
+{
+  "imdbId": "tt32306991",
+  "title": "Solo Mio",
+  "criticScores": [
+    {
+      "source": "Film Threat",
+      "url": "https://filmthreat.com/reviews/solo-mio-romantic-comedy-2026-review/",
+      "scores": {
+        "story": 6,
+        "acting": 5,
+        "direction": 5,
+        "cinematography": 5,
+        "productionDesign": 5,
+        "editing": 5,
+        "sound": 5,
+        "emotionalImpact": 7
+      },
+      "summary": "The critic found Solo Mio to be a delightful, feel-good date movie despite its sappy nature"
+    },
+    {
+      "source": "The A.V. Club",
+      "url": "https://www.avclub.com/solo-mio-review",
+      "scores": {
+        "story": 6,
+        "acting": 5,
+        "direction": 7,
+        "cinematography": 5,
+        "productionDesign": 5,
+        "editing": 5,
+        "sound": 5,
+        "emotionalImpact": 5
+      },
+      "summary": "The critic finds Solo Mio to be a balancing act that avoids feeling generic despite its familiarity"
+    },
+    {
+      "source": "ReelViews",
+      "url": "https://www.reelviews.net/reelviews/solo-mio",
+      "scores": {
+        "story": 5,
+        "acting": 5,
+        "direction": 5,
+        "cinematography": 5,
+        "productionDesign": 5,
+        "editing": 5,
+        "sound": 5,
+        "emotionalImpact": 4
+      },
+      "summary": "The critic finds Solo Mio to be a bland but genial and good-natured romantic movie"
+    },
+    {
+      "source": "The Travers Take",
+      "url": "https://www.thetraverstake.com/featured/solo-mio/",
+      "scores": {
+        "story": 6,
+        "acting": 7,
+        "direction": 5,
+        "cinematography": 8,
+        "productionDesign": 8,
+        "editing": 5,
+        "sound": 5,
+        "emotionalImpact": 6
+      },
+      "summary": "The critic mildly recommends this romcom for its scenery and Kevin James performance, despite other lacking elements
+    },
+    {
+      source: Variety,
+      url: https://variety.com/2026/film/reviews/solo-mio-review-kevin-james-1236653889/,
+      scores: {
+        story: 6,
+        acting: 8,
+        direction: 7,
+        cinematography: 5,
+        productionDesign: 5,
+        editing: 5,
+        sound: 5,
+        emotionalImpact: 6
+      },
+      summary: The directors effectively utilize the lead actors charm in this film, bringing a sense of soulfulness to his performance."
+    },
+    {
+      "source": "Movie Nation",
+      "url": "https://rogersmovienation.com/2026/02/05/movie-review-kevin-james-dumped-at-his-italian-destination-wedding-solo-mio/",
+      "scores": {
+        "story": 4,
+        "acting": 5,
+        "direction": 5,
+        "cinematography": 5,
+        "productionDesign": 5,
+        "editing": 5,
+        "sound": 5,
+        "emotionalImpact": 3
+      },
+      "summary": "The critic finds Solo Mio to be a mild and unoriginal comedy lacking edge and laughs."
+    },
+    {
+      "source": "RogerEbert.com",
+      "url": "https://www.rogerebert.com/reviews/solo-mio-kevin-james-angel-studios-movie-review-2026",
+      "scores": {
+        "story": 4,
+        "acting": 5,
+        "direction": 6,
+        "cinematography": 5,
+        "productionDesign": 5,
+        "editing": 7,
+        "sound": 5,
+        "emotionalImpact": 3
+      },
+      "summary": "The film prioritizes pace over emotional investment, resulting in a lacking cinematic experience"
+    },
+    {
+      "source": "The Film Verdict",
+      "url": "https://thefilmverdict.com/solo-mio-film-review/",
+      "scores": {
+        "story": 2,
+        "acting": 4,
+        "direction": 3,
+        "cinematography": 5,
+        "productionDesign": 5,
+        "editing": 5,
+        "sound": 5,
+        "emotionalImpact": 2
+      },
+      "summary": "The critic expresses strong disappointment with the movies shallow content.
+    },
+    {
+      source: Rotten Tomatoes,
+      url: https://www.rottentomatoes.com/m/solo_mio,
+      scores: {
+        story: 7,
+        acting: 6,
+        direction: 7,
+        cinematography: 6,
+        productionDesign: 6,
+        editing: 6,
+        sound: 6,
+        emotionalImpact: 8
+      },
+      summary: The critics overall sentiment is positive, with the movie receiving high scores from both critics and audiences, indicating a heartwarming and enjoyable romantic comedy."
+    },
+    {
+      "source": "Letterboxd",
+      "url": "https://letterboxd.com/film/solo-mio/reviews/by/popular/",
+      "scores": {
+        "story": 6,
+        "acting": 5,
+        "direction": 5,
+        "cinematography": 7,
+        "productionDesign": 7,
+        "editing": 5,
+        "sound": 6,
+        "emotionalImpact": 4
+      },
+      "summary": "The critic found the movie to be a cute and charming rom-com, but lacking in depth and substance."
+    }
+  ]
+}
