@@ -1,0 +1,66 @@
+{
+  "imdbId": "tt0120358",
+  "title": "Touch Me",
+  "criticScores": [
+    {
+      "source": "80 Screen Rant",
+      "url": "https://screenrant.com/touch-me-movie-2026-review/",
+      "scores": {
+        "story": 6,
+        "acting": 9,
+        "direction": 5,
+        "cinematography": 5,
+        "productionDesign": 5,
+        "editing": 5,
+        "sound": 5,
+        "emotionalImpact": 6
+      },
+      "summary": "The film is elevated by its superb cast, particularly Olivia Taylor Dudleys career-best performance
+    },
+    {
+      source: 50 Variety,
+      url: https://variety.com/2025/film/reviews/touch-me-review-1236294147/,
+      scores: {
+        story: 4,
+        acting: 5,
+        direction: 4,
+        cinematography: 5,
+        productionDesign: 5,
+        editing: 5,
+        sound: 5,
+        emotionalImpact: 3
+      },
+      summary: The film falls short due to its overly ambitious scope.
+    },
+    {
+      source: 40 Next Best Picture,
+      url: https://nextbestpicture.com/touch-me/,
+      scores: {
+        story: 4,
+        acting: 5,
+        direction: 8,
+        cinematography: 8,
+        productionDesign: 7,
+        editing: 7,
+        sound: 6,
+        emotionalImpact: 5
+      },
+      summary: The films storytelling is disappointing, but its technical aspects are impressive"
+    },
+    {
+      "source": "16 IndieWire",
+      "url": "https://www.indiewire.com/criticism/movies/touch-me-review-addison-heimann-1235185305/",
+      "scores": {
+        "story": 2,
+        "acting": 5,
+        "direction": 2,
+        "cinematography": 5,
+        "productionDesign": 5,
+        "editing": 4,
+        "sound": 5,
+        "emotionalImpact": 1
+      },
+      "summary": "The critic found the film to be emotionally and formally lacking, with little meaningful or engaging content."
+    }
+  ]
+}
