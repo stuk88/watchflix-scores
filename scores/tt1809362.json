@@ -1,0 +1,51 @@
+{
+  "imdbId": "tt1809362",
+  "title": "The Confession",
+  "criticScores": [
+    {
+      "source": "Polygon",
+      "url": "https://www.polygon.com/the-confession-review-2026-horror-movie/",
+      "scores": {
+        "story": 7,
+        "acting": 5,
+        "direction": 5,
+        "cinematography": 5,
+        "productionDesign": 5,
+        "editing": 5,
+        "sound": 5,
+        "emotionalImpact": 8
+      },
+      "summary": "The movie effectively conveys the horror of neglect and grief, leaving a lasting impression despite not being traditionally scary."
+    },
+    {
+      "source": "Rotten Tomatoes",
+      "url": "https://www.rottentomatoes.com/m/the_confession",
+      "scores": {
+        "story": 8,
+        "acting": 7,
+        "direction": 8,
+        "cinematography": 9,
+        "productionDesign": 7,
+        "editing": 7,
+        "sound": 6,
+        "emotionalImpact": 8
+      },
+      "summary": "The reviewer praises the short film for its strong message, impressive child actors, and wonderful cinematography, indicating a generally positive sentiment towards the movie."
+    },
+    {
+      "source": "Letterboxd",
+      "url": "https://letterboxd.com/film/the-confession/reviews/by/popular/",
+      "scores": {
+        "story": 4,
+        "acting": 2,
+        "direction": 2,
+        "cinematography": 3,
+        "productionDesign": 3,
+        "editing": 2,
+        "sound": 2,
+        "emotionalImpact": 2
+      },
+      "summary": "The critic found the movie to be dull, inept, and overall a disappointing watch"
+    }
+  ]
+}
